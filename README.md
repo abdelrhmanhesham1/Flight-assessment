@@ -19,7 +19,7 @@ The Aviation Safety Hub is a desktop application that helps pilots evaluate thei
 - **Desktop Wrapper**: Electron 41.2
 - **Styling**: Vanilla CSS (Modern design system with glassmorphism)
 - **Icons**: Lucide React
-- **AI Engine**: Google Gemini 1.5 Flash (via secure IPC Proxy)
+- **AI Engine**: Google Gemini 2.5 Flash (via secure IPC Proxy)
 - **Persistence**: Browser LocalStorage
 
 ## 🏗️ Architecture
