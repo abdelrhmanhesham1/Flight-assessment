@@ -52,15 +52,35 @@ The application includes built-in logic validation:
 
 ```text
 flight-checklist/
-├── src/                # React Frontend
-│   ├── App.jsx         # Main Application Logic
-│   ├── index.css       # Design System & Styling
-│   └── data.js         # Safety Framework Definitions
 ├── public/             # Static Assets (Icons, etc.)
+│   ├── favicon.svg
+│   └── icons.svg
+├── screenshots/        # Application Screenshots
+│   ├── analyzing.png
+│   ├── dashboard.png
+│   ├── log.png
+│   ├── matrix.png
+│   └── report.png
+├── src/                # React Frontend Source
+│   ├── assets/         # App Images & SVGs
+│   │   ├── hero.png
+│   │   ├── react.svg
+│   │   └── vite.svg
+│   ├── App.css
+│   ├── App.jsx         # Main Application Logic
+│   ├── data.js         # Safety Framework Definitions
+│   ├── index.css       # Design System & Styling
+│   └── main.jsx
+├── .env.example        # Template for API Key
+├── .gitignore          # Files excluded from GitHub
+├── README.md           # Project Documentation
 ├── electron.cjs        # Electron Main Process
-├── preload.cjs         # IPC Bridge Security Layer
+├── eslint.config.js
+├── index.html          # Entry Point
+├── package-lock.json
 ├── package.json        # Dependencies & Build Scripts
-└── .env                # API Key Configuration
+├── preload.cjs         # IPC Bridge Security Layer
+└── vite.config.js
 ```
 
 ## 💻 How to Run the Project
